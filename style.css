@@ -1,0 +1,44 @@
+body {
+  font-family: "Arial";
+  margin: 0;
+  line-height: 1.5;
+  text-transform: uppercase;
+  background-color: rgb(135, 184, 196);
+}
+.companyLogo {
+  color: white;
+  position: relative;
+  bottom: 0px;
+  left: 5px;
+  font-weight: bolder;
+  font-size: 26px;
+}
+.digitalHeaven {
+  color: white;
+  position: relative;
+  top: 300px;
+  left: 530px;
+  font-size: 78px;
+
+}
+.fancyIdeas {
+  color: black;
+  position: relative;
+  top: 265px;
+  left: 695px;
+  font-weight: lighter;
+  font-size: 16px;
+}
+.box {
+  color: white;
+  font-weight: bold;
+  border:1.5px solid white;
+  width: 150px;
+  height: 25px;
+  padding: 10px;
+  font-size: 15px;
+  background-color: rgb(135, 184, 196);
+  position: relative;
+  top:335px;
+  left: 736px;
+}
