@@ -1,0 +1,38 @@
+body {
+    font-family: "Airal";
+    background-color: white;
+}
+.topnav {
+    background-color: grey;
+    box-sizing: border-box;
+    float: center;
+    text-align: center;
+  }
+  .leftBox {
+      background-color: blue;
+      box-sizing: border-box;
+      width: 55%;
+      margin-top: 2%;
+      line-height: 540px;
+      float: left;
+      text-align: center;
+  }
+  .rightBox {
+      background-color: red;
+      box-sizing: border-box;
+      width: 20%;
+      margin-top: 2%;
+      line-height: 540px;
+      float: right;
+      text-align: center;
+  }
+  .footer {
+      background-color: green;
+      box-sizing: border-box;
+      float: center;
+      text-align: center;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+  }
