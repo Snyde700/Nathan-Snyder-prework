@@ -29,10 +29,12 @@ body {
   .footer {
       background-color: green;
       box-sizing: border-box;
-      float: center;
       text-align: center;
       position: fixed;
-      left: 0;
+      float: center;
+      position: fixed;
       bottom: 0;
-      width: 100%;
+      margin-left: 0%;
+      width: 99%;
+      
   }
