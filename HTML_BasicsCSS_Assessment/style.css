@@ -1,5 +1,4 @@
 body {
-  font-family: "Arial";
   margin: 0;
   line-height: 1.5;
   text-transform: uppercase;
@@ -7,14 +6,16 @@ body {
 }
 .companyLogo {
   color: white;
+  font-family: "Arial";
   position: relative;
   bottom: 0px;
   left: 5px;
-  font-weight: bolder;
+  font-weight: 700;
   font-size: 26px;
 }
 .fancyIdeas {
   color: black;
+  font-family: "Arial";
   position: relative;
   top: 265px;
   left: 695px;
@@ -23,6 +24,7 @@ body {
 }
 .digitalHeaven {
   color: white;
+  font-family: "Arial";
   position: relative;
   top: 300px;
   left: 530px;
@@ -30,6 +32,7 @@ body {
 }
 .box {
   color: white;
+  font-family: "Arial";
   box-sizing: border-box;
   font-weight: bold;
   border:1.5px solid white;
