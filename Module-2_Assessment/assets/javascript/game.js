@@ -3,6 +3,7 @@ listedWord = document.querySelectorAll('#currentWord');
 listedWrong = document.querySelector('guessedWrong');
 listedGuessCount = document.querySelector('#guessRemain');
 
+//Look up how to push the _ into a space for each new word
 const wordList = ['Brass_In_Pocket', 'Piano_Man', 'The_Joker', 'Dream_On', 'Crazy_On_You'];
 
 let word = wordList[Math.floor(Math.random () *
