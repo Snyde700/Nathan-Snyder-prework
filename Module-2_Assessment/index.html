@@ -14,31 +14,30 @@
     <body background="/assets/images/Background.jpg" style="background-size: 100%";>
 <!--Unable to add background sound on start as only IE supports this feature (using Chrome) -->
     <main class="container">
-<header class="m-5 p-5">
+<header class="m-6 p-5">
     <h1 style="font-weight: 900; font-size: 50pt; position: relative; left: 20%">Classic Rock</h1>
     <h2 style="font-weight: 900; font-size: 30pt; position: relative; left: 50%;">Hangman</h2>
 </header>
-<div class="container m-0 p-4 text-center" style="background-color: lightslategray; border: solid black; position: relative; bottom: 60px">
-    <h3 id="guitarSong" class="p-5" style="font-size: 50px;">Guess The Classic Rock Song</h3>
+<div class="container m-4 p-4 text-center" style= "border: solid black; position: relative; bottom: 60px; background-color: lightslategrey; right: 20px;">
+    <h3 id="images" class="p-5" style="font-size: 50px;">Guess The Classic Rock Song</h3>
     <div class="row">
         <div class="col mb-2">
-            <img src="/assets/images/punkrockBack.jpg" alt="Man playing guitar" id="poster" style="width: 75%; border: solid black;">
-            <audio controls src="#" id="music">
-                Your browser does not support the
-                <code>audio</code> element.
+            <img src="/assets/images/punkrockBack.jpg" alt="Man playing guitar" id="songCover" style="width: 75%; border: solid black;">
+            <audio controls src="#" id="Songs" hidden  = true>
+                <code>audio</code> 
             </audio>
         </div>
         <div class="col mb-5" style="border: solid black;">
-            <h3 style="color: whitesmoke; padding-top: 10px;">Press any key to start!</h3>
-            <h3 id="totalWins"></h3>
+            <h2 style="color: whitesmoke; padding-top: 10px; border: 2px dashed black; margin-top: 3px;  padding: 8px;">Press any key to start!</h2>
+            <h2 id="wins" style="color:whitesmoke"></h2>
+            <h2 class="my-4">
+            <h2 style="color: whitesmoke">Current Word</h2>
+            <h2 id="currentWord"></h2>
             <hr class="my-4">
-            <h3 style="color: whitesmoke">Current Word</h3>
-            <h3 id="currentWord"></h3>
-            <hr class="my-4">
-            <h3 style="color: whitesmoke">Letters Guessed:</h3>
-            <h3 id="lettersGuessed"></h3>
-            <h3 style="color: whitesmoke">Guesses Remaining:</h3>
-            <h3 id="guessesRemaining"></h3>
+            <h2 style="color: whitesmoke">Guesses Remaining:</h2>
+            <h2 id="guessesLeft"></h2>
+            <h2 style="color: whitesmoke">Letters Guessed:</h2>
+            <h2 id="guessWrong"></h2>
         </div>
     </div>
 </div>

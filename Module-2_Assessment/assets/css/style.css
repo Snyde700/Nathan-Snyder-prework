@@ -1,6 +1,10 @@
 h1, h2{
-font-family: 'Rock Salt', cursive;
+font-family: 'Rock Salt';
 }
 p, h3{
-font-family: 'New Rocker', cursive;
+font-family: 'New Rocker';
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
